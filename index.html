@@ -1,0 +1,324 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+
+<head>
+	<!-- Заголовок страницы в браузере -->
+	<title>Портфолио</title>
+	<!-- Подключаем CSS -->
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i&display=swap" rel="stylesheet">
+	<!-- Кодировка страницы -->
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+</head>
+<!-- Отображаемое тело страницы -->
+
+<body>
+	<header class="header" id="header">
+		<div class="header__menu">
+			<button class="header__burder">=</button>
+			<ul class="header__nav">
+				<li><a href="#">HOME</a></li>
+				<li><a href="#about">ABOUT</a></li>
+				<li><a href="#resume">RESUME</a></li>
+				<li><a href="#works">WORKS</a></li>
+				<li><a href="#testimonials">TESTIMONIALS</a></li>
+				<li><a href="#contact">CONTACT</a></li>
+			</ul>
+		</div>
+		<div class="header__body">
+			<h1 class="header__title">I'm Shabanov Aleksandr.</h1>
+			<div class="header__text">
+				I'm a <span>frontend designer</span> creating awesome and effective visual identities for companies of
+				all sizes
+				around the globe. Let's start scrolling and learn more <a href="#about">about me</a>.
+			</div>
+			<hr>
+			<div class="header__social">
+				<ul class="social">
+					<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+					<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+					<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+					<li><a href="#"><i class="fa fa-skype"></i></a></li>
+					<li><a href="#"><i class="fa fa-vk"></i></a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="header__scroll">
+			<a href="#about"><i class="fa fa-chevron-circle-down"></i></a>
+		</div>
+	</header>
+	<section class="about" id="about">
+		<div class="row">
+			<div class="about__picture column-left"><img src="images/profilepic.jpg" alt=""></div>
+			<div class="about__body column-right">
+				<h2 class="about__title title">About Me</h2>
+				<div class="about__text text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+					doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto
+					beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
+					fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro
+					quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam
+					eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima
+					veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.</div>
+
+				<div class="row">
+					<div class="about__contact">
+						<div class="about__title title">Contact Details</div>
+						<div class="about__text text">
+							<span>Shabanov Aleksandr</span> <br>
+							<span>12, Molodezhnaya street</span> <br>
+							<span>Chervonnoe, 150434 KZ</span> <br>
+							<span>(123)456-7890</span> <br>
+							<span>aleksandr_2209@mail.ru</span> <br>
+						</div>
+					</div>
+					<div class="about__download">
+						<a href="#" class="about__button"><i class="fas fa-download"></i>Download Resume</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="resume" id="resume">
+		<div class="row education">
+			<div class="column-left">
+				<div class="resume__name">education</div>
+			</div>
+			<div class="column-right">
+				<h3 class="resume__title title">University of Life</h3>
+				<div class="resume__subtitle">Master in Graphic Design <span>•</span> <em class="date">April 2007</em></div>
+				<div class="resume__text text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+					ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+					ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa
+					quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Nullam dictum felis eu
+					pede mollis pretium.</div>
+			</div>
+		</div>
+		<div class="row work">
+			<div class="column-left">
+				<div class="resume__name">WORK</div>
+			</div>
+			<div class="column-right">
+				<div class="resume__title title">Awesome Design Studio</div>
+				<div class="resume__subtitle">Senior UX Designer <span>•</span> <em class="date">March 2010 - Present</em>
+				</div>
+				<div class="resume__text text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+					ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+					ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa
+					quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Nullam dictum felis eu
+					pede mollis pretium.</div>
+			</div>
+		</div>
+		<div class="row skills">
+			<div class="column-left">
+				<div class="resume__name">SKILLS</div>
+			</div>
+			<div class="column-right">
+				<ul class="skills__items">
+					<li>
+						<em>Photoshop</em>
+						<span class="skill skill__photoshop"></span>
+					</li>
+					<li>
+						<em>html5</em>
+						<span class="skill skill__html5"></span>
+					</li>
+					<li>
+						<em>css</em>
+						<span class="skill skill__css"></span>
+					</li>
+					<li>
+						<em>javascript</em>
+						<span class="skill skill__javascript"></span>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<section class="works" id="works">
+		<h3 class="works__title">CHECK OUT SOME OF MY WORKS.</h3>
+		<div class="row works__row">
+			<div class="works__item">
+				<a href="https://font-weight.github.io/font-weight-first-side.github.io/">
+					<img src="images/portfolio/Снимок3.PNG" alt="">
+					<div class="works__content">
+						<div class="works__name">FIRST</div>
+						<div class="works__scope">Web Development</div>
+						<div class="works__visit"><i class="fa fa-arrow-right" aria-hidden="true"></i></div>
+					</div>
+				</a>
+			</div>
+			<div class="works__item">
+				<a href="https://font-weight.github.io/font-weight.second-side.github.io/">
+					<img src="images/portfolio/Снимок2.PNG" alt="">
+					<div class="works__content">
+						<div class="works__name">FIRST</div>
+						<div class="works__scope">Web Development</div>
+						<div class="works__visit"><i class="fa fa-arrow-right" aria-hidden="true"></i></div>
+					</div>
+				</a>
+			</div>
+			<div class="works__item">
+				<a href="https://font-weight.github.io/font-weight-thirs-side.github.io/">
+					<img src="images/portfolio/Снимок.PNG" alt="">
+					<div class="works__content">
+						<div class="works__name">FIRST</div>
+						<div class="works__scope">Web Development</div>
+						<div class="works__visit"><i class="fa fa-arrow-right" aria-hidden="true"></i></div>
+					</div>
+				</a>
+			</div>
+		</div>
+	</section>
+	<section class="testimonials" id="testimonials">
+		<div class="row__testimonials row">
+			<div class="column-left">
+				<h3>CLIENT TESTIMONIALS</h3>
+				<i class="fa fa-quote-left" aria-hidden="true"></i>
+			</div>
+			<div class="column-right">
+				<blockquote>
+					<p>Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do
+						what you believe is great work. And the only way to do great work is to love what you do. If you
+						haven't
+						found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find
+						it.</p>
+					<cite>Steve Jobs</cite>
+				</blockquote>
+			</div>
+		</div>
+	</section>
+	<section class="contact" id="contact">
+		<div class="row">
+			<div class="column-left"><span class="contact__title">GET IN TOUCH</span><i class="fa fa-envelope"
+					aria-hidden="true"></i></div>
+			<div class="column-right">
+				<div class="contact__text">
+					Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam
+					rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+					explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="contact__column-left">
+				<form action="get">
+					<div class="row name">
+						<label for="contactName">Name <span class="contact__asterisk">*</span></label>
+						<input type="text" id="contactName">
+					</div>
+					<div class="row email">
+						<label for="contactEmail">Email <span class="contact__asterisk">*</span></label>
+						<input type="text" id="contactEmail">
+					</div>
+					<div class="row subject">
+						<label for="contactSubject">Subject</label>
+						<input type="text" id="contactSubject">
+					</div>
+					<div class="row message">
+						<label for="contactMessage">Message <span class="contact__asterisk">*</span></label>
+						<textarea name="contactMessage" id="contactMessage" cols="50" rows="15"></textarea>
+					</div>
+					<div class="row submit">
+						<button>Submit</button>
+					</div>
+				</form>
+			</div>
+			<div class="contact__column-right">
+				<div class="contact__contacts">
+					<h4>Address and Phone</h4>
+					<p>
+						Shabanov Aleksandr
+						<br>
+						12, Molodezhnaya street
+						<br>
+						Chervonnoe, 150434 KZ
+						<br>
+						(123)456-7890
+					</p>
+				</div>
+				<div class="contact__tweets">
+					<h4>Latest Tweets</h4>
+					<ul class="twitter">
+						<li>
+							<p>
+								This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean
+								sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum <a
+									href="#">http://t.co/CGIrdxIlI3</a>
+							</p>
+							<b>2 Days Ago</b>
+						</li>
+						<li>
+							<p>
+								Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+								laudantium,
+								totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi <a
+									href="#">http://t.co/CGIrdxIlI3</a>
+							</p>
+							<b>3 Days Ago</b>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="footer" id="footer">
+		<div class="footer__row">
+			<div class="footer__scroll">
+				<a href="#header"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+			</div>
+			<div class="footer__social">
+				<ul>
+					<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+					<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+					<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+					<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+					<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+					<li><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+					<li><a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
+				</ul>
+			</div>
+			<div class="footer__copyright">
+				<p>© Copyright 2014 CeeVee</p>
+				<p>Design by <a href="#">Styleshout</a></p>
+			</div>
+		</div>
+	</footer>
+
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$("#header").on("click", "a", function (event) {
+				event.preventDefault();
+				var id = $(this).attr('href'),
+					top = $(id).offset().top;
+				$('body,html').animate({ scrollTop: top }, 1000);
+			});
+		});
+	</script>
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$("#footer").on("click", "a", function (event) {
+				event.preventDefault();
+				var id = $(this).attr('href'),
+					top = $(id).offset().top;
+				$('body,html').animate({ scrollTop: top }, 1000);
+			});
+		});
+	</script>
+	<script type="text/javascript">
+		$(function () {
+			$('.header__burder').click(function () {
+				$('.header__nav').slideToggle();
+			});
+		});
+	</script>
+</body>
+
+</html>
